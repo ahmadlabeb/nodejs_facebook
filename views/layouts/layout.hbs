@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" ng-app="angluerTabs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{title}}</title>
+    <!-- Bootstrap -->
+    <link href="/stylesheets/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Application -->
+    <link href="/stylesheets/bootstrap/css/style.css" rel="stylesheet"/>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>-->
+    <script src="/stylesheets/bootstrap/js/html5shiv.min.js"></script>
+    <script src="/stylesheets/bootstrap/js/respond.min.js"></script>
+    <script src="/javascripts/angular.min.js"></script>
+    <script src="/javascripts/ui-bootstrap-tpls-2.4.0.min.js"></script>
+
+  </head>
+
+<body>
+<nav class="nav navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+               <a class="navbar-brand" href="#">Brand</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">My Profile</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<section>
+    {{{body}}}
+</section>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="/stylesheets/bootstrap/js/jquery-3.1.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/stylesheets/bootstrap/js/bootstrap.min.js"></script>
+<script src="/javascripts/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+*{
+
+}
+.navbar.navbar-default{
+    margin-top: 10px;
+}
+.classhieght{
+    background: lightcoral;
+}
+.marg-panel{
+    margin-top: 50px;
+}
+.art-panel-img{
+   min-height: 200px;
+    width: 18%;
+    overflow: auto;
+    background: lightcoral;
+}
+.art-panel-info{
+    min-height: 200px;
+    width: 80%;
+    overflow: auto;
+    background: lightcoral;
+}
+.h3-marg{
+    margin-bottom: 45px;
+}
